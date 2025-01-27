@@ -7,7 +7,7 @@ La finalidad del proyecto más que hacer una investigación real, es hacer un tr
 
 # Postgraduate final project
 
-This is my final graduate project in Data Analytics and Programming Applied to the Social Sciences 2022-2023. It is a study on sleep data. The data analyzed has been extracted from the Garmin Fenix 6X Pro smartwatch.
+This is my final postgraduate project in Data Analytics and Programming applied to Social Sciences 2022-2023. It is a study on sleep data. The analyzed data has been extracted from the Garmin Fenix 6X Pro smartwatch.
 
-The purpose of the project rather than doing a real research, is to do ETL, statistical analysis and data visualization work in R language.
+The purpose of the project, rather than conducting real research, is to perform ETL (Extract, Transform, Load) work, statistical analysis, and data visualization in the R language.
 
