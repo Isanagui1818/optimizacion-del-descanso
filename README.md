@@ -33,7 +33,9 @@ una capacidad explicativa del **89.1%**.
 
 <br>
 
-# 🇺🇸 How to Get Better Rest? A Sleep Optimization Analysis
+# 🇺🇸 English version
+
+# How to Get Better Rest? A Sleep Optimization Analysis
 
 Final project for the postgraduate program in Data Analytics and Programming 
 applied to Social Sciences (2022–2023). Analysis of sleep metrics extracted 
