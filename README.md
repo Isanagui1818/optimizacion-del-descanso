@@ -1,39 +1,3 @@
-# ¿Cómo conseguir un mejor descanso? Análisis para la optimización del sueño
-
-Proyecto final del posgrado en Analítica de Datos y Programación aplicada 
-a las Ciencias Sociales (2022–2023). Análisis de métricas de sueño extraídas 
-del smartwatch **Garmin Fenix 6X Pro** durante 237 días, con el informe 
-generado en **R Markdown**.
-
-## Pipeline ETL
-
-Los datos se exportaron desde el portal de Garmin en formato JSON, 
-distribuidos en tres archivos con variables de distinta estructura. 
-El proceso de unificación implicó extraer variables anidadas, crear 
-nuevas variables de tiempo de sueño, recodificar tipos de datos y 
-eliminar valores nulos hasta obtener un dataset limpio y analizable.
-
-## Análisis exploratorio
-
-Se visualizó la evolución de la calidad del sueño en tres escalas 
-temporales: diaria, semanal y mensual, complementado con calendarios 
-de calor mes a mes que permiten identificar patrones y anomalías 
-a lo largo del período de estudio.
-
-## Análisis estadístico
-
-Se aplicaron dos modelos de regresión lineal. El primero, usando únicamente 
-las horas de sueño como predictor, explicaba solo el **19.3%** de la 
-variabilidad en la calidad del sueño. Para mejorar este resultado se realizó 
-un **análisis PCA** que redujo la dimensionalidad del dataset, y aplicando 
-regresión lineal múltiple sobre los componentes seleccionados se alcanzó 
-una capacidad explicativa del **89.1%**.
-
----
-
-<br>
-<sub><img src="https://flagcdn.com/16x12/us.png" alt="US"> English version</sub>
-
 # How to Get Better Rest? A Sleep Optimization Analysis
 
 Final project for the postgraduate program in Data Analytics and Programming 
