@@ -1,27 +1,34 @@
-# How to Get Better Rest? A Sleep Optimization Analysis
+# Sleep Optimization Analysis
 
-Final project for the postgraduate program in Data Analytics and Programming 
-applied to Social Sciences (2022–2023). Analysis of sleep metrics extracted 
-from a **Garmin Fenix 6X Pro** smartwatch over 237 days, with the report 
-generated in **R Markdown**.
+**🌐 Choose your language · Elige tu idioma**
 
-## ETL Pipeline
+| Language / Idioma | Project README |
+|---|---|
+| 🇬🇧 **English** | **[→ README_en.md](README_en.md)** |
+| 🇪🇸 **Español** | **[→ README_es.md](README_es.md)** |
 
-Data was exported from the Garmin portal in JSON format across three files 
-with different structures. The unification process involved extracting nested 
-variables, creating new sleep time variables, recoding data types, and 
-removing null values to produce a clean, analysis-ready dataset.
+---
 
-## Exploratory Analysis
+## About the bilingual documentation
 
-Sleep quality was visualised across three time scales — daily, weekly, and 
-monthly — complemented by month-by-month heat map calendars to identify 
-patterns and anomalies throughout the study period.
+**EN** — The documentation in this repository ships in **two parallel files**:
+`README_en.md` (English) and `README_es.md` (Spanish). This root `README.md`
+exists only as a **language selector** and to explain the convention. The two
+language versions are kept **in sync**: any change to one is mirrored in the other.
 
-## Statistical Analysis
+## Sobre la documentación bilingüe
 
-Two linear regression models were applied. The first, using only sleep hours 
-as a predictor, explained just **19.3%** of the variability in sleep quality. 
-To improve this, a **PCA analysis** was performed to reduce dimensionality, 
-and applying multiple linear regression on the selected components achieved 
-an explanatory capacity of **89.1%**.
+**ES** — La documentación de este repositorio se publica en **dos ficheros
+paralelos**: `README_en.md` (inglés) y `README_es.md` (español). Este
+`README.md` raíz existe solo como **selector de idioma** y para explicar la
+convención. Las dos versiones se mantienen **sincronizadas**: cualquier cambio
+en una se replica en la otra.
+
+## Where to start · Por dónde empezar
+
+| | English | Español |
+|---|---|---|
+| **Overview · Visión general** | [`README_en.md`](README_en.md) | [`README_es.md`](README_es.md) |
+
+> Personal portfolio project · self-tracked Garmin sleep data — _Proyecto de
+> portfolio personal · datos de sueño de Garmin autorregistrados._
